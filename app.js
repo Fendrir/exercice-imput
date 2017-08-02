@@ -41,3 +41,22 @@ $("#valider").click (function() {
   	$("#tableau").append("<tr>" + prenom + " " + nom + " " + age + "</tr>");
 
  });
+
+
+// ------------------------------ CORRECTION -----------------------------------------
+
+// var prenom = "",
+//    nom = "",
+//    age = 0;var tableRows = "<tr><th>Prenom</th><th>Nom</th><th>Age</th></tr>";$("button").click(function() {
+//  prenom = $("#prenom").val();
+//  nom = $("#nom").val();
+//  age = $("#age").val();
+ 
+//  tableRows += "<tr><td>" + prenom +
+//                "</td><td>" + nom +
+//                "</td><td>" + age +
+//                "</td></tr>";
+ 
+ 
+//  $("#container").html("<table>" + tableRows + "</table>");
+// });
